@@ -1,0 +1,1111 @@
+{
+  "page": [
+    {
+      "page": "ConfigurePageViewController",
+      "pageName": "可配置页",
+      "params": [
+        "tabId",
+        "pageId",
+        "storeId"
+      ]
+    },
+    {
+      "page": "SearchMainViewController",
+      "pageName": "搜索主页",
+      "params": [
+        "searchType"
+      ]
+    },
+    {
+      "page": "SearchResultsViewController",
+      "pageName": "搜索结果页",
+      "params": [
+        "searchType",
+        "keyword"
+      ]
+    },
+    {
+      "page": "StorePageViewController",
+      "pageName": "店铺主页",
+      "params": [
+        "storeId",
+        "productStoreId",
+        "addStoreInventoryId",
+        "addCustomTagIds"
+      ]
+    },
+    {
+      "page": "GoodPageDetailViewController",
+      "pageName": "商品详情页",
+      "params": [
+        "productStoreId",
+        "promoterCode",
+        "addStoreInventoryId",
+        "addCustomTagIds"
+      ]
+    },
+    {
+      "page": "ClassifyMainViewController",
+      "pageName": "分类页"
+    },
+    {
+      "page": "ErrandOrderViewController",
+      "pageName": "跑腿下单页",
+      "params": [
+        "type",
+        "runOrderId",
+        "buyAginData"
+      ]
+    },
+    {
+      "page": "ErrandListViewController",
+      "pageName": "跑腿订单列表页",
+      "params": [
+      ]
+    },
+    {
+      "page": "ErrandOrderDetailViewController",
+      "pageName": "跑腿订单详情页",
+      "params": [
+        "runOrderId"
+      ]
+    },
+    {
+      "page": "ErrandOrderStatusViewController",
+      "pageName": "跑腿订单状态页",
+      "params": [
+        "runOrderId"
+      ]
+    },
+    {
+      "page": "ErrandOrderTrackingViewController",
+      "pageName": "跑腿订单追踪页",
+      "params": [
+        "runOrderId"
+      ]
+    },
+    {
+      "page": "ErrandRefundDetailViewController",
+      "pageName": "跑腿退款申请详情页",
+      "params": [
+        "runOrderId"
+      ]
+    },
+    {
+      "page": "ErrandApplyRefundViewController",
+      "pageName": "跑腿退款申请页",
+      "params": [
+        "status",
+        "runOrderId"
+      ]
+    },
+    {
+      "page": "NewsPageViewController",
+      "pageName": "资讯主页",
+      "params": [
+      ]
+    },
+    {
+      "page": "NewsPageViewController",
+      "pageName": "资讯主页",
+      "params": [
+      ]
+    },
+    {
+      "page": "NewsPageColumnsViewController",
+      "pageName": "资讯栏目页",
+      "params": [
+        "sortId"
+      ]
+    },
+    {
+      "page": "NewsPageColumnNewsListViewController",
+      "pageName": "资讯栏目列表页",
+      "params": [
+        "sortId"
+      ]
+    },
+    {
+      "page": "NewsCommentsViewController",
+      "pageName": "资讯评论页",
+      "params": [
+        "newsId"
+      ]
+    },
+    {
+      "page": "NewsCommentDetailViewController",
+      "pageName": "资讯评论详情页",
+      "params": [
+        "commentId"
+      ]
+    },
+    {
+      "page": "NewsPageLatestNewsViewController",
+      "pageName": "资讯最新页",
+      "params": [
+      ]
+    },
+    {
+      "page": "NewsPageMyFollowViewController",
+      "pageName": "我的关注页",
+      "params": [
+      ]
+    },
+    {
+      "page": "NewsPageUserArticleListViewController",
+      "pageName": "我的文章",
+      "params": [
+      ]
+    },
+    {
+      "page": "NewsPageUserDetailsViewController",
+      "pageName": "他人的文章列表页",
+      "params": [
+        "userId"
+      ]
+    },
+    {
+      "page": "NewsPageUserFollowsFansViewController",
+      "pageName": "关注/粉丝列表页",
+      "params": [
+        "followsOrFans",
+        "userId"
+      ]
+    },
+    {
+      "page": "NewsCollectionsViewController",
+      "pageName": "资讯-我的收藏",
+      "params": [
+      ]
+    },
+    {
+      "page": "MyCollectionViewController",
+      "pageName": "我的收藏",
+      "params": [
+      ]
+    },
+    {
+      "page": "NewsArticleTagNewsListViewController",
+      "pageName": "资讯标签页",
+      "params": [
+        "labelId",
+        "labelName"
+      ]
+    },
+    {
+      "page": "NewsDetailViewController",
+      "pageName": "资讯详情页",
+      "params": [
+        "newsId"
+      ]
+    },
+    {
+      "page": "NewsSearchMainViewController",
+      "pageName": "资讯搜索页",
+      "params": [
+      ]
+    },
+    {
+      "page": "NewsSearchResultsViewController",
+      "pageName": "资讯搜索结果页",
+      "params": [
+        "keyword"
+      ]
+    },
+    {
+      "page": "AccountSecureViewController",
+      "pageName": "账户与安全",
+      "params": [
+      ]
+    },
+    {
+      "page": "BindPhoneViewController",
+      "pageName": "绑定手机",
+      "params": [
+      ]
+    },
+    {
+      "page": "ChangePhoneViewController",
+      "pageName": "更换手机号",
+      "params": [
+      ]
+    },
+    {
+      "page": "ChangePhoneNumViewController",
+      "pageName": "更换手机号",
+      "params": [
+      ]
+    },
+    {
+      "page": "InputValidationViewController",
+      "pageName": "填写验证码",
+      "params": [
+      ]
+    },
+    {
+      "page": "BindThridPlatformViewController",
+      "pageName": "社交账号绑定",
+      "params": [
+      ]
+    },
+    {
+      "page": "CertificationViewController",
+      "pageName": "实名认证",
+      "params": [
+      ]
+    },
+    {
+      "page": "ChangePaymentCodeViewController",
+      "pageName": "修改支付密码",
+      "params": [
+      ]
+    },
+    {
+      "page": "ModifyAccountViewController",
+      "pageName": "修改账号名",
+      "params": [
+      ]
+    },
+    {
+      "page": "ModifyPasswordViewController",
+      "pageName": "修改登录密码",
+      "params": [
+      ]
+    },
+    {
+      "page": "SetModifyPasswordViewController",
+      "pageName": "修改登录密码",
+      "params": [
+      ]
+    },
+    {
+      "page": "SetPasswordViewController",
+      "pageName": "设置登录密码",
+      "params": [
+      ]
+    },
+    {
+      "page": "ModifyUsernameViewController",
+      "pageName": "修改用户名",
+      "params": [
+      ]
+    },
+    {
+      "page": "PaymentCodeManageViewController",
+      "pageName": "支付密码管理",
+      "params": [
+      ]
+    },
+    {
+      "page": "VerifyPhoneViewController",
+      "pageName": "验证密码页",
+      "params": [
+      ]
+    },
+    {
+      "page": "MerchantEnterViewController",
+      "pageName": "入驻申请",
+      "params": [
+      ]
+    },
+    {
+      "page": "LocationViewController",
+      "pageName": "选择地址页",
+      "params": [
+      ]
+    },
+    {
+      "page": "InviteNewUserViewController",
+      "pageName": "邀请注册领红包",
+      "params": [
+      ]
+    },
+    {
+      "page": "ApplyRefundOrderDetailsViewController",
+      "pageName": "售后详情",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "page": "ApplyRefundOrderMoneyStatusViewController",
+      "pageName": "钱款去向",
+      "params": [
+      ]
+    },
+    {
+      "page": "ApplyRefundOrderTrackingViewController",
+      "pageName": "售后追踪",
+      "params": [
+        "type",
+        "id"
+      ]
+    },
+    {
+      "page": "ApplyRefundOrderListViewController",
+      "pageName": "退款/售后",
+      "params": [
+      ]
+    },
+    {
+      "page": "ShoppingOrderApplyRefundServiceViewController",
+      "pageName": "服务选择",
+      "params": [
+        "orderId"
+      ]
+    },
+    {
+      "page": "ShoppingOrderApplyRefundSuccessViewController",
+      "pageName": "申请退款成功页",
+      "params": [
+        "orderId"
+      ]
+    },
+    {
+      "page": "ShoppingOrderApplyRefundViewController",
+      "pageName": "退款申请",
+      "params": [
+        "orderGoodsId"
+      ]
+    },
+    {
+      "page": "CourierCommentPageViewController",
+      "pageName": "跑腿员主页",
+      "params": [
+        "type",
+        "id"
+      ]
+    },
+    {
+      "page": "CourierCommentDetailsViewController",
+      "pageName": "评价详情",
+      "params": [
+        "assessmentId"
+      ]
+    },
+    {
+      "page": "PublishCommentAgainViewController",
+      "pageName": "追加评价",
+      "params": [
+        "orderId",
+        "type"
+      ]
+    },
+    {
+      "page": "PublishCommentResultViewController",
+      "pageName": "发表评价",
+      "params": [
+        "type",
+        "id"
+      ]
+    },
+    {
+      "page": "PublishCommentViewController",
+      "pageName": "发表评价",
+      "params": [
+        "type",
+        "errandId",
+        "orderId"
+      ]
+    },
+    {
+      "page": "MyOrdersListViewController",
+      "pageName": "我的订单",
+      "params": [
+        "status"
+      ]
+    },
+    {
+      "page": "ShopOrderApplyCancelViewController",
+      "pageName": "取消订单",
+      "params": [
+        "orderId"
+      ]
+    },
+    {
+      "page": "OrderBagViewController",
+      "pageName": "查看商品分袋",
+      "params": [
+      ]
+    },
+    {
+      "page": "ShoppingOrderTrackViewController",
+      "pageName": "订单跟踪",
+      "params": [
+        "orderGoodsId"
+      ]
+    },
+    {
+      "page": "ShoppingOrderDeliveryLocationViewController",
+      "pageName": "订单追踪",
+      "params": [
+        "lat",
+        "lng"
+      ]
+    },
+    {
+      "page": "ShoppingOrderStatusViewController",
+      "pageName": "订单跟踪",
+      "params": [
+        "id",
+        "type"
+      ]
+    },
+    {
+      "page": "ShoppingOrderDetailsViewController",
+      "pageName": "商城订单详情",
+      "params": [
+        "orderGoodsId"
+      ]
+    },
+    {
+      "page": "MyFootprintViewController",
+      "pageName": "我的足迹",
+      "params": [
+      ]
+    },
+    {
+      "page": "SimilarStoreListViewController",
+      "pageName": "找相似",
+      "params": [
+        "storeId"
+      ]
+    },
+    {
+      "page": "MessageCenterViewController",
+      "pageName": "消息中心",
+      "params": [
+      ]
+    },
+    {
+      "page": "MessageCenterNotificationViewController",
+      "pageName": "消息通知中心",
+      "params": [
+        "sortId"
+      ]
+    },
+    {
+      "page": "",
+      "pageName": "",
+      "params": [
+      ]
+    },
+    {
+      "page": "PersonCenterViewController",
+      "pageName": "个人中心",
+      "params": [
+      ]
+    },
+    {
+      "page": "ShareObtainRedEnvelopeViewController",
+      "pageName": "分享领红包",
+      "params": [
+      ]
+    },
+    {
+      "page": "MyTicketsApplyMerchantViewController",
+      "pageName": "我的优惠券",
+      "params": [
+        "couponId"
+      ]
+    },
+    {
+      "page": "MyHistoryTicketsViewController",
+      "pageName": "我的优惠券",
+      "params": [
+      ]
+    },
+    {
+      "page": "MyTicketsViewController",
+      "pageName": "我的优惠券",
+      "params": [
+      ]
+    },
+    {
+      "page": "MyErrandCommentListViewController",
+      "pageName": "跑腿评价列表",
+      "params": [
+      ]
+    },
+    {
+      "page": "MyCommentPageViewController",
+      "pageName": "我的评价",
+      "params": [
+        "selectedIndex"
+      ]
+    },
+    {
+      "page": "MyShopCommentDetailsViewController",
+      "pageName": "评价详情",
+      "params": [
+        "assessmentId"
+      ]
+    },
+    {
+      "page": "MyShopCommentListViewController",
+      "pageName": "评价列表",
+      "params": [
+      ]
+    },
+    {
+      "page": "TicketCenterViewController",
+      "pageName": "优惠券中心",
+      "params": [
+        "couponIds"
+      ]
+    },
+    {
+      "page": "ModifyNicknameViewController",
+      "pageName": "修改昵称",
+      "params": [
+      ]
+    },
+    {
+      "page": "PersonInfomationViewController",
+      "pageName": "个人信息",
+      "params": [
+      ]
+    },
+    {
+      "page": "PersonSettingViewController",
+      "pageName": "设置",
+      "params": [
+      ]
+    },
+    {
+      "page": "AboutUsViewController",
+      "pageName": "关于我们",
+      "params": [
+      ]
+    },
+    {
+      "page": "VersionIntroduceDetailViewController",
+      "pageName": "功能介绍",
+      "params": [
+      ]
+    },
+    {
+      "page": "VersionIntroduceViewController",
+      "pageName": "版本介绍",
+      "params": [
+      ]
+    },
+    {
+      "page": "HelpCenterViewController",
+      "pageName": "帮助中心",
+      "params": [
+      ]
+    },
+    {
+      "page": "HelpCenterQuestionDetailViewController",
+      "pageName": "问题详情",
+      "params": [
+      ]
+    },
+    {
+      "page": "HelpCenterFeedBackViewController",
+      "pageName": "意见反馈",
+      "params": [
+      ]
+    },
+    {
+      "page": "MessageRemindViewController",
+      "pageName": "消息提醒",
+      "params": [
+      ]
+    },
+    {
+      "page": "MyCollectionViewController",
+      "pageName": "我的收藏",
+      "params": [
+      ]
+    },
+    {
+      "page": "AddBankCardViewController",
+      "pageName": "添加银行卡",
+      "params": [
+      ]
+    },
+    {
+      "page": "PhoneMessageVerifyViewController",
+      "pageName": "短信认证",
+      "params": [
+      ]
+    },
+    {
+      "page": "VerifyBankCardViewController",
+      "pageName": "验证银行卡信息",
+      "params": [
+      ]
+    },
+    {
+      "page": "BankCardDetailViewController",
+      "pageName": "银行卡详情",
+      "params": [
+      ]
+    },
+    {
+      "page": "BankCardManagementViewController",
+      "pageName": "银行卡管理",
+      "params": [
+      ]
+    },
+    {
+      "page": "MyAssetsViewController",
+      "pageName": "我的资产",
+      "params": [
+      ]
+    },
+    {
+      "page": "MyIntegralViewController",
+      "pageName": "我的积分",
+      "params": [
+      ]
+    },
+    {
+      "page": "MyIntegralDetailsViewController",
+      "pageName": "积分明细",
+      "params": [
+      ]
+    },
+    {
+      "page": "PaymentDetailsViewController",
+      "pageName": "收支明细",
+      "params": [
+      ]
+    },
+    {
+      "page": "BillDetailsViewController",
+      "pageName": "账单详情",
+      "params": [
+        "billId"
+      ]
+    },
+    {
+      "page": "AccountRechargeViewController",
+      "pageName": "账户充值/余额提现",
+      "params": [
+        "type"
+      ]
+    },
+    {
+      "page": "PrepaidCardRechargeViewController",
+      "pageName": "充值卡充值",
+      "params": [
+      ]
+    },
+    {
+      "page": "RechargeSucceedViewController",
+      "pageName": "充值详情",
+      "params": [
+      ]
+    },
+    {
+      "page": "AddShoppingAddressViewController",
+      "pageName": "新增收货地址",
+      "params": [
+        "addressId"
+      ]
+    },
+    {
+      "page": "AddressManageViewController",
+      "pageName": "收货地址管理",
+      "params": [
+      ]
+    },
+    {
+      "page": "AccountLoginViewController",
+      "pageName": "账号密码登录",
+      "params": [
+        "userCode",
+        "promoterCode"
+      ]
+    },
+    {
+      "page": "BindPhoneNumViewController",
+      "pageName": "绑定手机",
+      "params": [
+      ]
+    },
+    {
+      "page": "FindPasswordViewController",
+      "pageName": "找回密码",
+      "params": [
+      ]
+    },
+    {
+      "page": "LoginViewController",
+      "pageName": "账号密码登录",
+      "params": [
+        "userCode",
+        "promoterCode"
+      ]
+    },
+    {
+      "page": "BecomePromoterViewController",
+      "pageName": "成为推广员",
+      "params": [
+      ]
+    },
+    {
+      "page": "PromoterStatementViewController",
+      "pageName": "报表",
+      "params": [
+      ]
+    },
+    {
+      "page": "PromoterViewController",
+      "pageName": "推广有奖",
+      "params": [
+      ]
+    },
+    {
+      "page": "SelectedGoodsDetailViewController",
+      "pageName": "商品推广信息",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "page": "SelectedGoodsListViewController",
+      "pageName": "精选商品清单",
+      "params": [
+      ]
+    },
+    {
+      "page": "RankingListPageViewController",
+      "pageName": "排行榜",
+      "params": [
+      ]
+    },
+    {
+      "page": "GoodClassifyViewController",
+      "pageName": "商品分类名称",
+      "params": [
+        "type",
+        "classifyId"
+      ]
+    },
+    {
+      "page": "StoreClassifyViewController",
+      "pageName": "商品分类名称",
+      "params": [
+        "type",
+        "classifyId"
+      ]
+    },
+    {
+      "page": "ChooseReduceActivityViewController",
+      "pageName": "选择店铺活动/选择平台活动",
+      "params": [
+      ]
+    },
+    {
+      "page": "ChooseCouponViewController",
+      "pageName": "选择店铺优惠券/选择平台优惠券/选择跑腿优惠券",
+      "params": [
+      ]
+    },
+    {
+      "page": "ChooseReceivingAddressViewController",
+      "pageName": "选择地址",
+      "params": [
+      ]
+    },
+    {
+      "page": "ConfirmLeaveMsgViewController",
+      "pageName": "备注",
+      "params": [
+      ]
+    },
+    {
+      "page": "ChoosePayWayViewController",
+      "pageName": "支付方式",
+      "params": [
+        "type",
+        "id"
+      ]
+    },
+    {
+      "page": "PayOrderViewController",
+      "pageName": "支付订单",
+      "params": [
+        "type",
+        "id"
+      ]
+    },
+    {
+      "page": "PayOrderResultViewController",
+      "pageName": "支付详情",
+      "params": [
+        "type",
+        "id"
+      ]
+    },
+    {
+      "page": "SubmitOrderViewController",
+      "pageName": "提交商城订单",
+      "params": [
+        "shoppingCartIds"
+      ]
+    },
+    {
+      "page": "SubmitOrderRouteViewController",
+      "pageName": "提交订单路径",
+      "params": [
+      ]
+    },
+    {
+      "page": "ShoppingCartViewController",
+      "pageName": "购物车",
+      "params": [
+      ]
+    },
+    {
+      "page": "ReduceDetailViewController",
+      "pageName": "降价拍详情页",
+      "params": [
+        "activityGroupId"
+      ]
+    },
+    {
+      "page": "StoreSearchGoodViewController",
+      "pageName": "店铺搜索页面",
+      "params": [
+        "storeId"
+      ]
+    },
+    {
+      "page": "ScanCodeGoodsListViewController",
+      "pageName": "扫码购页面",
+      "params": [
+        "activityId",
+        "storeId"
+      ]
+    },
+    {
+      "page": "StoreMainPageCommentViewController",
+      "pageName": "店铺评论页",
+      "params": [
+        "storeId"
+      ]
+    },
+    {
+      "page": "SortBagViewController",
+      "pageName": "分口袋页面",
+      "params": [
+        "storeId"
+      ]
+    },
+    {
+      "page": "SHWebViewController",
+      "pageName": "网页",
+      "params": [
+        "url"
+      ]
+    },
+    {
+      "page": "",
+      "pageName": "",
+      "params": [
+      ]
+    }
+  ],
+  "widget": [
+    {
+      "widget": "CPSearchBarView",
+      "widgetName": "首页-搜索控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPImagesTableCell",
+      "widgetName": "首页-图片控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPNewPagedFlowCell",
+      "widgetName": "首页-轮播图控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "TwoRowImagesCell",
+      "widgetName": "首页-双列图片控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPTitleCell",
+      "widgetName": "首页-标题控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPOneWithFourImagesCell",
+      "widgetName": "首页-四图片控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPCarouselCell",
+      "widgetName": "首页-轮播图控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPNoticeCell",
+      "widgetName": "首页-公告控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPHorizontalGoodsCell",
+      "widgetName": "首页-横向图片控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPOneGoodsListCell",
+      "widgetName": "首页-单列商品控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPThreeGoodsListCell",
+      "widgetName": "首页-三列商品控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPTwoGoodsListCell",
+      "widgetName": "首页-两列商品控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPStoresListCell",
+      "widgetName": "首页-单列店铺控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPStoresTwoRowCell",
+      "widgetName": "首页-双列店铺控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPThreeImageCell",
+      "widgetName": "首页-三图控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "CPHeaderNewCell",
+      "widgetName": "首页-头部控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "ToolMenuNewCell",
+      "widgetName": "首页-工具栏控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "ToolMenuCell",
+      "widgetName": "首页-工具栏控件",
+      "params": [
+        "id"
+      ]
+    },
+    {
+      "widget": "LaunchPageViewController",
+      "widgetName": "全屏广告页",
+      "params": [
+      ]
+    },
+    {
+      "widget": "NoticeAlertView",
+      "widgetName": "公告弹窗",
+      "params": [
+        "type"
+      ]
+    },
+    {
+      "widget": "AdvertiseAlertView",
+      "widgetName": "广告弹窗",
+      "params": [
+        "type"
+      ]
+    },
+    {
+      "widget": "TicketsAlertView",
+      "widgetName": "优惠券弹窗",
+      "params": [
+        "type"
+      ]
+    },
+    {
+      "widget": "ShoppingcartAdvertise",
+      "widgetName": "广告控件-购物车",
+      "params": [
+      ]
+    },
+    {
+      "widget": "PayResultAdvertise",
+      "widgetName": "支付结果页广告",
+      "params": [
+      ]
+    },
+    {
+      "widget": "MyIntegralAdvertise",
+      "widgetName": "我的积分广告",
+      "params": [
+      ]
+    },
+    {
+      "widget": "PublishCommentResultAdvertise",
+      "widgetName": "评论分布成功页广告",
+      "params": [
+      ]
+    },
+    {
+      "widget": "ApplyRefundSuccessAdvertise",
+      "widgetName": "申请退款成功页广告",
+      "params": [
+      ]
+    },
+    {
+      "widget": "NewsDetailAdvertise",
+      "widgetName": "资讯详情页广告",
+      "params": [
+      ]
+    },
+    {
+      "widget": "NewsListAdvertise",
+      "widgetName": "资讯列表页广告",
+      "params": [
+      ]
+    }
+  ]
+}
